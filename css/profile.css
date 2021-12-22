@@ -1,0 +1,328 @@
+body{
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin: 0 auto;
+	background-color: #EEEEEE;
+}
+.body{
+	display: flex;
+	justify-content:
+}
+.vert_header{
+	height: 100vh;
+
+	width: 18%;
+	background: #FFFFFF;
+	box-shadow: 7px 0px 15px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	position: fixed;
+	text-align: center;
+}
+.data{
+	width: 80%;
+
+	margin: 0 0 0 auto;
+}
+.imgs{
+	margin-bottom: 59px;
+}
+nav{
+	margin-left: 31px;
+}
+.nav_links{
+	margin-bottom: 20px;
+}
+.nav_links_btns{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	width: 80%;
+}
+.nav_links_btns img{
+	margin-right: 12px;
+	opacity: 0.5;
+}
+.nav_links_btns span{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: black;
+	opacity: .5;
+}
+.active .nav_links_btns img, .active .nav_links_btns span{
+	opacity: 1;
+} 
+.active .nav_links_btns{
+	border-bottom: 3px solid #F69400;
+}
+.container{
+	width: 100%;
+	max-width: 98%;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search{
+	width: 50%;
+	margin-left: -8px;
+}
+.search img{
+	position: absolute;
+	margin-left: 5px;
+}
+.input{
+	width: 100%;
+	border: none;
+	padding: 10px 30px;
+	border-bottom: 2px solid #858585;
+	background-color: rgba(0, 0, 0, 0);
+}
+.user{
+	width: 18%;
+}
+.ava{
+	width: 25%;
+}
+.name{
+	width: 75%;
+}
+.title_name{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #000000;
+}
+.intro_data{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.courses{
+	width: 58%;
+}
+.lesson{
+	width: 40%;
+}
+.lessons{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 11px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 33px;
+	margin-bottom: 25px;
+}
+.photo{
+	width: 30%;
+}
+.texts{
+	width: 70%;
+}
+.name_course{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+	margin-bottom: 7px;
+}
+.subtitle_course{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	letter-spacing: 0.065em;
+	color: #757575;
+	margin-bottom: 48px;
+}
+.start{
+	display: flex;
+	justify-content: space-between;
+}
+
+.title_start{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+}
+
+.data_start{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	color: #595959;
+}
+.btns{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 13px;
+	letter-spacing: 0.065em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+
+
+}
+.color_btn{
+	background: #F79400;
+	border-radius: 23px;
+	padding: 9px 34px;
+}
+.w{
+	width: 55%;
+}
+
+.f{
+	width: 50%;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+}
+.t{
+	width: 50%;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: left;
+	color: #F69400;
+}
+.schedules{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px 23px;
+	margin-bottom: 19px;
+}
+.schuedue_date{
+	width: 20%;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 44px;
+	color: #000000;
+	opacity: 0.9;
+}
+.firsts{
+	background: #FFFFFF;
+	box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+.schuedue_data{
+	width: 40%;
+	border-left: 1px solid black;
+	padding-left: 15px;
+}
+.schuedue_time{
+	width: 40%;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+}
+.schedule_name{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+}
+.schuedue_just{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	color: #646464;
+}
+.intro_data{
+	width: 98%;
+}
+.datess{
+	width: 40%;
+}
+.flex_pars{
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 25px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+.flex_pars{
+
+}
+.widthss{
+	width: 57%;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+
+	color: #000000;
+
+}
+.scheduless{
+	width: 50%;
+	text-align: left;
+}
+.namesss{
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.fosz{
+	font: 12px;
+	text-decoration: none;
+	color: gray;
+}
+.parts{
+	display: flex;
+	justify-content: space-between;
+}
+
+.money{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 16px;
+
+	color: #F69400;
+}
+
+@media all and (max-width: 375px){
+	body{
+		display: none;
+	}
+}
